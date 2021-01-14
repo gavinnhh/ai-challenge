@@ -605,7 +605,7 @@ header .nav .caret {
     SLIDER SECTION
 ===============================================*/
 #section-slider {
-    background: url("../images/bg.jpg");
+    background: url("../images/bg.png");
     background-size: cover;
     position: relative;
     overflow: hidden;
