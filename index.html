@@ -68,9 +68,21 @@
             window.cookieconsent.initialise(json)
         });
     </script>
+    
 </head>
 
 <body id="page-top" data-spy="scroll" , onload="putLists()">
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- Navigation -->
 
 <!-- nav-bar -->
@@ -100,6 +112,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-check-circle"></i> Submission</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="results.html"><i class="far fa-sticky-note"></i> Results</a>
             </li>
             <!-- <li class="nav-item">
                 <a class="nav-link" href="rubrics.html"><i class="far fa-sticky-note"></i> Evaluation Rubrics</a>
@@ -426,7 +441,28 @@
                             <h5>Cloud support:</h5>
                             <p>Amazon AWS cloud environment</p>
                             <br><br>
-
+                            
+                            <h5>Share us</h5><br>
+                                
+                            <div class=".box">
+                                <!-- Linkedin -->
+                                <!-- <div class="item">
+                                    <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+                                    <script type="IN/Share" data-url="http://av-test-challenge.org/index.html"></script>
+                                </div> -->
+                                
+                                <!-- Share to Twitter -->
+                                <div class="item">
+                                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </div>
+                                <!-- Share to FB -->
+                                <div class="item">
+                                    <div class="fb-share-button" data-href="http://av-test-challenge.org/index.html" data-layout="button"></div>
+                                </div>
+                                
+                            </div>
+                            
+                            <br><br><br><br><br><br>
                             <hr class="modal-hr">
                         </div>
                     </div>

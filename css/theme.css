@@ -921,5 +921,9 @@ p.sub{
     font-weight: normal;
 }
 
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
