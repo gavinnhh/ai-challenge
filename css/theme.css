@@ -605,7 +605,7 @@ header .nav .caret {
     SLIDER SECTION
 ===============================================*/
 #section-slider {
-    background: url("../images/bg.png");
+    background: url("../images/AI-challenge-IEEE.png");
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -616,7 +616,7 @@ header .nav .caret {
 
 .slider-caption {
     z-index:2;
-    padding: 200px 0px 100px;
+    padding: 200px 0px 300px;
     margin: 0 auto;
 }
 
