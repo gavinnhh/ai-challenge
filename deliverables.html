@@ -96,7 +96,7 @@ fjs.parentNode.insertBefore(js, fjs);
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto h5">
             <li class="nav-item active">
-                <a class="nav-link active" href="#"><i class="fas fa-home"></i> Home</a>
+                <a class="nav-link active" href="index.html"><i class="fas fa-home"></i> Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="organisers.html"><i class="fas fa-user-friends"></i> Organization Team</a>
@@ -164,33 +164,13 @@ fjs.parentNode.insertBefore(js, fjs);
                     <h5>Share us</h5><br>
                     <div class="addthis_inline_share_toolbox"></div><br>
                     <hr>
-                    <h4>Sponsors</h4>
+                    <!-- <h4>Sponsors</h4>
                     <img src="images/sponsors2.png" alt="" class="img-responsive center-block">
                     <img src="images/sponsors3.png" alt="" class="img-responsive center-block">
                     <br><br>
-                    <h4>Announcement:</h4>
-                    <p>
-                        The 2021 IEEE Autonomous Driving AI Test Challenge
-                        is now an <b class="orangeColor">online only event</b>. It will take place from <b
-                            class="orangeColor">23<sup>rd</sup> August to 26<sup>th</sup> August</b>.
-                    </p>
-                    <hr>
-                    <p class="sub">news</p>
-                    <h4>Latest News:</h4>
-                    <hr>
-                    <p>
-                        <b class="orangeColor">Oct. 26 2020:</b><br>
-                        Please check the the new <b class="semi-focus orangeColor">Announcement</b> on participating the
-                        online challenges.
-                        For further details about the online challenges, please take a look at the <b
-                            class="semi-focus orangeColor">online venue page</b>.
-                        <br>
-                        <a onclick="alertFunction()" target="_blank" type="button"
-                           class="btn btn-xs center-block">Online Venue
-                        </a>
-                    </p>
-                    <br>
-                    <hr id="callForPaper">
+                    
+                    <hr> -->
+            
                 </div>
             </div>
         </div>
@@ -202,146 +182,63 @@ fjs.parentNode.insertBefore(js, fjs);
 
                         <div class="about-inner">
                             
-                            <h4 style="text-align:center">2021 IEEE Autonomous Driving AI Test Challenge </h4>
-                               <h4 style="text-align:center">Sponsored by IEEE AI Test Conference 2021</h4>
                             
-                            <!--  NOTE: each h5 tag is the title of the entire content         -->
+                            <h5>Deliverables</h5>
+                            <p><b>Deliverable #1 </b> - Develop specified simulation test scenarios and scripts for a specified route. <br><br>
+                                The objective of this task is to prepare each team to get familiarized with LGSVL simulator and Baidu Apollo platform. 
+                                In this task, each team is going to write Python scripts to generate pre-determined test scenarios, run simulations, 
+                                and generate a test report. Each team is required to implement six sample test scenarios in LGSVL connecting to Apollo. 
+                                Teams will choose maps and vehicles from the available maps and vehicles provided by LGSVL simulator. The submission 
+                                includes the Python scripts and the generated test report. The six sample test scenarios will be selected from the 
+                                following six categories.
 
-                            <h5>Introduction:</h5>
-                            <p>Testing autonomous driving vehicles refers to a quality assurance process in which diverse
-                                validation activities are performed based on well-defined quality assurance standards and
-                                assessment criteria. In a quality validation process, unmanned autonomous driving vehicles are
-                                validated at different levels (component, integration, and system) based on the pre-defined
-                                quality requirements to assure system quality in algorithms, functions, components, behaviors,
-                                connectivity, sensing, performance, intelligence, and decision-making in diverse contexts and
-                                conditions. To reduce the cost and increase the testing efficiency in the autonomous driving
-                                industry, simulation testing receives increasing attention and effort in recent years. A
-                                high-fidelity simulation software usually contains the mathematical representations of the
-                                environment, the dynamics of autonomous vehicles and surrounding vehicles, the sensors
-                                models, etc., at different levels, and is needed to facilitate the testing and development of
-                                autonomous driving systems. In order to perform efficient simulation testing, techniques for
-                                optimizing and accelerating testing processes are in great demand.
-                            </p>
-                            <p>This challenge is set up as a platform to address this demand, and advocate the importance and
-                                need of quality validation and automation for autonomous driverless cars. This platform provides
-                                a global competition opportunity for international student teams and professional teams to
-                                develop diverse simulation testing techniques and approaches in test scenario generation and
-                                automation.
-                            </p>
-                            <h5>Simulation environment:</h5>
-                            <p>
-                                In this challenge, LGSVL simulator will be used to support simulation testing and execution.
-                                LGSVL simulator is a Unity-based autonomous vehicle simulator developed by LG Electronics
-                                America R&D Center. The LGSVL simulator can generate various realistic 3D environments by
-                                adjusting environmental parameters including maps, weather, traffic, and pedestrians. It can also
-                                simulate different sensor outputs, including camera, Lidar, radar, ultrasonic, etc., and lots of
-                                virtual sensors to generate ground truth data (e.g. depth, semantic/instance segmentation, 2D/3D
-                                bounding box, etc.). Users can generate and test arbitrary edge case scenarios and simulate
-                                billions of miles. LGSVL simulator is fully integrated with the open-source platforms Baidu
-                                Apollo and Autoware. In this challenge, teams will use LGSVL integrated with Baidu Apollo to
-                                generate and evaluate test cases.
-                            </p>
-                            <p>
-                                The details about LGSVL could be found in the following URLs:
-                                <br>
-                                <a href="https://www.lgsvlsimulator.com/">https://www.lgsvlsimulator.com/</a>
-                                <br>
-                                <a href="https://www.lgsvlsimulator.com/docs/">https://www.lgsvlsimulator.com/docs/</a>
-                            </p>
-                            <h5>AV Simulation Test Challenge:</h5>
-                            <p>The challenge consists of two phases:</p>
-                            <p>1. <b>Training and team selection</b>. During this phase, training materials including tutorial
-                                videos, documents, and online Q&A sessions will be delivered to the teams so that the
-                                teams will get familiar with LGSVL simulator.
-                                <br>
-                                Available training materials:
-                                <br>
-                                <a href="https://www.youtube.com/watch?v=Ucr0aM334_k">https://www.youtube.com/watch?v=Ucr0aM334_k</a>
-                                <br>
-                                <a href="https://www.lgsvlsimulator.com/docs/getting-started/">https://www.lgsvlsimulator.com/docs/getting-started/</a>
-                                <br>
-                                Two Q&A / demo sessions
-                            </p>
+                                <br><br>
+                                1. Perform lane change/low-speed merge <br>
+                                <img src="images/1.png" alt="" width="200" height="200" class="img-responsive center-block">
+                                <br><br>
+                                2. Perform vehicle following <br>
+                                <img src="images/2.png" alt="" alt="" width="120" height="200" class="img-responsive center-block">
+                                <br><br>
+                                3. Move out of travel lane/park <br>
+                                <img src="images/3.png" alt="" alt="" width="200" height="300" class="img-responsive center-block">
+                                <br><br>
+                                4. Detect and respond to school buses <br>
+                                <img src="images/4.png" alt="" alt="" width="250" height="300" class="img-responsive center-block">
+                                <br><br>
+                                5. Detect and respond to encroaching oncoming vehicles <br>
+                                <img src="images/5.png" alt="" alt="" width="150" height="300" class="img-responsive center-block">
+                                <br><br>
+                                6. Detect and respond to pedestrians <br>
+                                <img src="images/6.png" alt="" alt="" width="150" height="300" class="img-responsive center-block">
+                                <br><br>
+                                Reference: “A Framework for Automated Driving System Testable Cases and Scenarios” 
+                                The United States National Highway Traffic Safety Administration. <br>
 
-                            <p>2. <b>Competition</b>. During this phase, teams use the traffic accident/crash database to create scenarios, automation scripts, 
-                                and UI and submit them for evaluation.
-                                <br>
-                                <!-- <a href="https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/pre-crash_scenario_typology-final_pdf_version_5-2-07.pdf">[1] https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/pre-crash_scenario_typology-final_pdf
-                                    _version_5-2-07.pdf</a>
-                                <br>
-                                <a href="https://www.nhtsa.gov/research-data/databases-and-software">[2] https://www.nhtsa.gov/research-data/databases-and-softwar</a> -->
-                            </p>
-                            <h5>Challenge Tasks for Each Team:</h5>
-                            <p> 1. Form a team and make your challenge registration via specified challenge platform. Each
-                                team can have up to 6 members.
-                                <br>
-                                2. Attend challenge training sessions
-                                <br>
-                                3. First phase deliverable - Work on deliverable #1 and submit your challenge project
-                                artifacts to the specified challenge platform.
-                                <br>
-                                4. Second phase deliverable - Work on deliverable #2 and submit your challenge project
-                                artifacts to the specified challenge platform.
-                                <br>
-                                5. Final challenge demo and evaluation for selected final teams.
-                                <br>
-                                6. Final paper submission and presentation for selected final teams.
-                                <br><br>
-                                
-                                <a href="deliverables.html">See Deliverables</a>
-                                
-                            </p>
-                            <h5>Challenge Evaluations:</h5>
-                            <p>The results will be evaluated based on <br>
-                                1) Test simulation automation in test simulation modeling, auto-script generation,
-                                auto-result validation, auto-coverage analysis, and auto-report
-                                <br>
-                                2) Models and methodology
-                                <br>
-                                3) Simulation demos based on specified routes, scenarios, and rules
-                                <br>
-                                4) The number of test simulation scenarios
-                                <br><br>
-                                <b>The submissions will be evaluated based on the following criteria:</b>
-                                <br>
-                            </p>
+                                <a href="https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/documents/13882-automateddrivingsystems_092618_v1a_tag.pdf">https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/documents/13882-automateddrivingsystems_092618_v1a_tag.pdf</a>
 
-                            <h5>AV Test Simulation Generation – Evaluation Criteria</h5>
-                            <p>This evaluation criteria listed below provides detailed assessment rubrics for AV test simulation
-                                scenario generation and script generation from different teams.
+
+
+
+                            
                             </p>
-                            <img src="images/SimulationGeneration.png" alt="" class="img-responsive center-block">
-                            <br><br>
                             
-                            <h5>AV Test Simulation Demo – Evaluation Criteria</h5>
-                            <p>This evaluation criteria listed below provides detailed assessment rubrics for challenge demos given from different teams.</p>
-                            <img src="images/SimulationDemo.png" alt="" class="img-responsive center-block">
-                            <br><br>
-                            
-                            <h5>Challenge Organization Platform</h5>
-                            <p>Github</p>
-                            
-                            <h5>Getting Started with LGSVL:</h5>
-                            <p>The instructions on how to get started with LGSVL including the system requirements can be found at 
-                                <a href="https://www.lgsvlsimulator.com/docs/getting-started/">https://www.lgsvlsimulator.com/docs/getting-started/</a> It is highly recommended to have a local machine 
-                                running LGSVL Simulator so that you can easily develop/debug your test cases. If both LGSVL Simulator 
-                                and Apollo can be run locally, either on the same machine or on two different machines, it would be ideal.
+                        
+
+
+                            <p><b>Deliverable #2 </b> – Develop AV simulation test scenarios and scripts based on the given criteria. 
+                                During this phase, each team is going to create scenarios, automation scripts, and UI, and 
+                                submit them for evaluation based on the criteria listed in the “Evaluation Criteria” section. 
+                                Teams can create scenarios based on the reports published by National Highway Traffic Safety 
+                                Administration. The submission includes the Python scripts and the generated test report. 
                                 <br><br>
-                                Otherwise, LGSVL cloud can be used to run scenarios in parallel for verification. LGSVL cloud can run LGSVL 
-                                Simulator, Apollo ad stack, and scenario/Python scripts. Users can view the visualization of recorded data 
-                                and can see an analysis report of all the simulations after simulations are finished.
-                                </p>
-                            
-                            <h5>Cloud support:</h5>
-                            <p>Amazon AWS cloud environment</p>
-                            
-                            
-                            <h5>Challenge Awards: ($10K)</h5>
-                            <p>- First place team ($5K) <br>
-                                - Second place team ($3K) <br>
-                                - 2 Third place teams ($2K, each with 1K)</p>
-                            
-                            <hr>
+                                [1] Pre-Crash Scenario Typology for Crash Avoidance Research <br>
+                                <a href="https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/pre-crash_scenario_typology-final_pdf_version_5-2-07.pdf">https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/pre-crash_scenario_typology-final_pdf_version_5-2-07.pdf</a>
+
+                                <br>
+                                [2] A Framework for Automated Driving System Testable Cases and Scenarios <br>
+                                <a href="https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/documents/13882-automateddrivingsystems_092618_v1a_tag.pdf">https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/documents/13882-automateddrivingsystems_092618_v1a_tag.pdf</a>
+
+                            </p>
             
                             <br><br><br><br><br>
                             <hr class="modal-hr">
